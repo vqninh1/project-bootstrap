@@ -108,6 +108,12 @@
     height: 415px;
 }
 
+.job {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
 
 .job__item {
     background-color: #fff;
@@ -153,6 +159,36 @@
     background-color: #152036;
     color: #fff;
 }
+
+.pagination__item {
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #707070;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 0.8;
+    
+}
+
+.pagination__item:hover {
+    border-color: #152036;
+}
+
+.pagination__item-active {
+    border: 1px solid #152036;
+}
+
+.pagination__item-active:hover {
+    border-color: #707070;
+    opacity: 0.8;
+}
+
+.pagination-dots-three {
+    cursor: default;
+}
+
+
 
 
 
