@@ -109,3 +109,51 @@
 }
 
 
+.job__item {
+    background-color: #fff;
+    padding: 20px;
+    padding-right: 160px;
+    border-radius: 10px;
+}
+
+.job__item:hover {
+    background-color: #152036;
+}
+
+.job__item:hover .job__title a,
+.job__item:hover .job__desc,
+.job__item:hover .job__desc .job__icon,
+.job__item:hover .job__desc a {
+    color: #fff;
+}
+
+.job__item:hover .btn {
+    background-color: #fff;
+    color: #152036;
+
+}
+
+.job__title a {
+    color: #152036;
+}
+
+
+
+.job__desc,
+.job__desc a,
+.job__icon {
+    color: #707070;
+}
+
+.btn {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    background-color: #152036;
+    color: #fff;
+}
+
+
+
+
