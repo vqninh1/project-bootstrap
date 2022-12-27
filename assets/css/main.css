@@ -1,7 +1,8 @@
 .header {
     top: 0;
     z-index: 3;
-    box-shadow: 0px 0px 5px #797979;
+    -webkit-box-shadow: 0px 0px 5px #797979;
+            box-shadow: 0px 0px 5px #797979;
 }
 .navbar__img {
     height: 34px;
@@ -47,13 +48,17 @@
     z-index: 1;
     bottom: -30px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+            box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
     
     
 }
 .social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     list-style: none;
     padding-left: 0;
     margin-right: -15px;
@@ -73,13 +78,17 @@
 .social__icon {
     position: relative;
     top: 50%;
-    transform: translateY(-40%);
+    -webkit-transform: translateY(-40%);
+        -ms-transform: translateY(-40%);
+            transform: translateY(-40%);
 }
 
 .social__link_name {
     left: 12%;
     top: 55%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .about {
@@ -88,6 +97,8 @@
 }
 
 .about__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -173,7 +184,9 @@
 .btn {
     right: 20px;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     font-size: 14px;
     background-color: #152036;
     color: #fff;
@@ -225,11 +238,11 @@
     background-color: #152036;
     right: 10%;
     top: 70%;
-    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+            box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
     z-index: 3;
 
 }
-
 
 
 
