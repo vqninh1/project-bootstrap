@@ -13,6 +13,12 @@
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+    
+    .social__item p {
+        padding-left: 28px;
+        padding-bottom: 12px;
+       
+    }
     .row {
         margin-left: 0;
         margin-right: 0;
@@ -25,6 +31,14 @@
     .banner__main .col-4,
     .footer__top .col-4 {
         width: 50%;
+    }
+
+    .banner__main .col-4:first-child {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .banner__main .banner__main-second {
+        padding-right: 8px !important;
     }
 
     .banner__main .col-4:last-child{
@@ -75,7 +89,18 @@
         font-size: 20px;
         color: #152036;
     }
+
     .social {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 5px !important;
+        text-align: center;
+    }
+    .social__item {
+        margin-top: 6px;
+    }
+    .social__item p{
         display: none;
     }
     .row {
@@ -84,45 +109,84 @@
     }
 
     .about {
-        padding-top: 0;
+        padding-top: 40px;
+        padding-bottom: 50px;
     }
 
-
-    .about__info .col-6 {
+    .about__benefit {
+        margin-top: 50px;
+    }
+    .about__info .col-6,
+    .about__benefit .col-4 {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    
-
+    .about__img,
+    .about__title,
+    .about__description {
+        text-align: center;
+    }
+   
     .banner__main .col-4,
     .footer__top .col-4 {
         width: 50%;
     }
 
+    .banner__main .col-4:first-child {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .banner__main .col-4:first-child .col-12,
+    .banner__main .col-4:first-child .col-6:last-child {
+        padding-right: 5px !important;
+    }
+    .banner__main .banner__main-second {
+        padding-right: 8px !important;
+    }
     .banner__main .col-4:last-child{
         display: none;
     }
 
+    .customer .col-6 {
+        width: 100%;
+        text-align: center;
+    }
     .customer .col-6 img {
-        width: 350px;
-        height: 350px;
-        max-width: 100%;
+        display: none;
     }
 
+    .customer .col-12 {
+        text-align: center !important;
+    }
+
+    .customer .col-12:last-child {
+        margin-top: 20px;
+    }
+
+    .pagination {
+        text-align: center !important;
+    }
     .footer__title {
         margin-top: 0 !important;
     }
 
-    .footer__title ,
-    .footer__list {
+    .footer__top .row {
+        flex-direction: column;
         text-align: center;
     }
 
-    .footer__top .col-4:last-child  {
-        display: none;
-    }
+    .footer__top .col-4 {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
 
+    }
+    .footer__top .social {
+        display: block;
+    }
+    
     .component__top {
         right: 30px;
         top: 50%;
