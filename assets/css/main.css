@@ -16,6 +16,10 @@
 .nav-item a:hover {
     border-bottom-color: #333;
 }
+
+.navbar__icon {
+    display: none;
+}
 .container {
     position: relative;
 }
@@ -100,6 +104,11 @@
     height: 100%;
 }
 
+.customer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .customer-say {
     font-size: 27px;
 }
@@ -114,6 +123,9 @@
 
 }
 
+.job__head {
+    margin-bottom: 60px !important;
+}
 
 .job__item {
     background-color: #fff;
@@ -188,6 +200,28 @@
     cursor: default;
 }
 
+.footer {
+    background-color: #152036;
+}
+
+.footer__top {
+    padding-top: 70px;
+}
+
+.footer__logo img {
+    height: 34px;
+}
+
+
+.component__top {
+    padding: 15px;
+    background-color: #152036;
+    right: 10%;
+    top: 70%;
+    box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+    z-index: 3;
+
+}
 
 
 

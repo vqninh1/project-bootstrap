@@ -1,0 +1,131 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .social__list {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .social__item {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .about__info .col-6 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .banner__main .col-4,
+    .footer__top .col-4 {
+        width: 50%;
+    }
+
+    .banner__main .col-4:last-child{
+        display: none;
+    }
+
+    .customer .col-6 img {
+        width: 350px;
+        height: 350px;
+        max-width: 100%;
+    }
+
+    .footer__title {
+        margin-top: 0 !important;
+    }
+
+    .footer__title ,
+    .footer__list {
+        text-align: center;
+    }
+
+    .footer__top .col-4:last-child  {
+        display: none;
+    }
+
+    .component__top {
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+/* Mobile */
+@media (max-width: 740px) {
+    .container-fluid {
+        
+    }
+    .navbar__img {
+        width: 120px;
+        height: 20px;
+    }
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar__icon {
+        display: block;
+        padding: 8px;
+        font-size: 20px;
+        color: #152036;
+    }
+    .social {
+        display: none;
+    }
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .about {
+        padding-top: 0;
+    }
+
+
+    .about__info .col-6 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+
+    .banner__main .col-4,
+    .footer__top .col-4 {
+        width: 50%;
+    }
+
+    .banner__main .col-4:last-child{
+        display: none;
+    }
+
+    .customer .col-6 img {
+        width: 350px;
+        height: 350px;
+        max-width: 100%;
+    }
+
+    .footer__title {
+        margin-top: 0 !important;
+    }
+
+    .footer__title ,
+    .footer__list {
+        text-align: center;
+    }
+
+    .footer__top .col-4:last-child  {
+        display: none;
+    }
+
+    .component__top {
+        right: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+} 
